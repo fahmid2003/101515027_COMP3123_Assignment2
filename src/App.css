@@ -1,0 +1,57 @@
+/* src/App.css */
+.App {
+    font-family: sans-serif;
+    text-align: center;
+    padding: 20px;
+    background-color: #f0f8ff; /* Light, calming background */
+    min-height: 100vh;
+}
+
+.search-form {
+    margin-bottom: 30px;
+}
+
+.search-form input, .search-form button {
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.search-form button {
+    background-color: #4CAF50; /* Green */
+    color: white;
+    cursor: pointer;
+}
+
+.weather-display {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: white;
+}
+
+.weather-details img {
+    width: 100px;
+    height: 100px;
+}
+
+.temperature {
+    font-size: 3em;
+    font-weight: bold;
+    color: #333;
+}
+
+.condition {
+    font-size: 1.2em;
+    font-style: italic;
+    margin-top: -10px;
+}
+
+.error-message {
+    color: red;
+    font-weight: bold;
+}
